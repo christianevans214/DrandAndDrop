@@ -6,9 +6,9 @@
 
 var React = require('react-native');
 var BasicSwitch = require('./components/SwitchIOS');
+var BasicTextInput = require('./components/TextInput');
+
 var {
-  TabBarIOS,
-  SwitchIOS,
   AppRegistry,
   StyleSheet,
   Text,
@@ -18,8 +18,9 @@ var {
 var reactNative = React.createClass({
   render: function() {
     return (
-/*      <View style={styles.container}>
+      <View style={styles.container}>
         <BasicSwitch />
+        <BasicTextInput />
         <Text style={styles.welcome}>
           Welcome to React Native!
         </Text>
@@ -30,7 +31,7 @@ var reactNative = React.createClass({
           Press Cmd+R to reload,{'\n'}
           Cmd+D or shake for dev menu
         </Text>
-      </View>*/
+      </View>
     );
   }
 });
