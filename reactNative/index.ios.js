@@ -18,14 +18,17 @@ var {
 var reactNative = React.createClass({
   render: function() {
     return (
+<<<<<<< HEAD
       <View style={styles.container}>
+=======
+      <BasicScrollView />
+
+/*      <View style={styles.container}>
+>>>>>>> def11456702254217a91413ee691266b60adf787
         <BasicSwitch />
         <BasicTextInput />
         <Text style={styles.welcome}>
-          Welcome to React Native!
-        </Text>
-        <Text style={styles.instructions}>
-          To get started, edit index.ios.js
+          Cooper's Smart Phone!
         </Text>
         <Text style={styles.instructions}>
           Press Cmd+R to reload,{'\n'}
