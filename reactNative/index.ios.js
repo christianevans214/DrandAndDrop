@@ -6,9 +6,15 @@
 
 var React = require('react-native');
 var BasicSwitch = require('./components/SwitchIOS');
+
+var {
+var BasicScrollView = require('./components/ScrollView');
 var BasicTextInput = require('./components/TextInput');
 
 var {
+  ScrollView,
+  TabBarIOS,
+  SwitchIOS,
   AppRegistry,
   StyleSheet,
   Text,
@@ -18,13 +24,9 @@ var {
 var reactNative = React.createClass({
   render: function() {
     return (
-<<<<<<< HEAD
-      <View style={styles.container}>
-=======
       <BasicScrollView />
 
 /*      <View style={styles.container}>
->>>>>>> def11456702254217a91413ee691266b60adf787
         <BasicSwitch />
         <BasicTextInput />
         <Text style={styles.welcome}>
